@@ -35,13 +35,26 @@ body {
     background-color: #003566;
     color: #FCF1D0;
     border-radius: 20px;
+    border: 2px solid #000;
 }
 .welcome {
     position: relative !important;
-    color: #003566 !important;
-    left: 1% !important;
+    color: #2d6a4f !important;
+    background-color: rgb(10, 0, 20);
+    border-radius: 20px;
+    display: inline-block;
+    padding: 4px 8px;
+    left: 23% !important;
+    margin-top: 8px;
+    border: 2px solid black;
 }
 .hackclub {
     position: relative !important;
-    left: 2% !important;
+    left: 25.5% !important;
+    margin-top: 8px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    background-color: rgb(10, 0, 20);
+    padding: 4px 8px;
+    display: inline-block;
 } /* move down plssss */
