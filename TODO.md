@@ -1,4 +1,5 @@
-add - projects.html
-add - workshops.html
-add - members.html
-add - calender.html
+# To Do #
+* add - projects.html
+* add - workshops.html
+* add - members.html
+* add - calender.html
