@@ -29,9 +29,19 @@ body {
     padding: 14px 20px;
     font-size: 30px;
     transition: background-color 0.3s ease;
+    border-radius: 20px;
 }
 .headtext a:hover {
     background-color: #003566;
     color: #FCF1D0;
     border-radius: 20px;
 }
+.welcome {
+    position: relative !important;
+    color: #003566 !important;
+    left: 1% !important;
+}
+.hackclub {
+    position: relative !important;
+    left: 2% !important;
+} /* move down plssss */
