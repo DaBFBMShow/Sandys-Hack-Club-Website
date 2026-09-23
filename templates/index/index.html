@@ -1,12 +1,5 @@
-{% load static %}
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Sandy's Hack Club - About Us</title>
-    <link rel="stylesheet" href="{% static 'index/style.css' %}">
-    </head>
-    <body>
+<body>
+    <div class="site-container">
         <header>
             <nav class="gimmehead">
                 <ul class="headtext">
@@ -18,7 +11,13 @@
                 </ul>
             </nav>
         </header>
-        <p><h3 class="welcome">Welcome to the Sandy Hack Club.</h3></p>
-        <div class="hackclub"><a href="https://hackclub.com/"><img style="bottom: 20 px; left: 20px; border: 0; width: 200px; z-index: 1000;" src="https://assets.hackclub.com/banners/2026.svg" alt="Hack Club"/></a></div>
-    </body>
-</html>
+
+        <h3 class="welcome">Welcome to the Sandy Hack Club.</h3>
+
+        <div class="hackclub">
+            <a href="https://hackclub.com/">
+                <img src="https://assets.hackclub.com/banners/2026.svg" alt="Hack Club" width="200"/>
+            </a>
+        </div>
+    </div>
+</body>
