@@ -24,6 +24,8 @@ urlpatterns = [
     
         path('', TemplateView.as_view(template_name='index/index.html'), name='home'),
         path('index.html', TemplateView.as_view(template_name='index/index.html'), name='home'),
+        path('members', TemplateView.as_view(template_name='members/members.html'), name='members'),
+        path('members/index.html', TemplateView.as_view(template_name='members/members.html'), name='members'),
 ]
 def custom404(request, exception=None):
     return page_not_found(request, exception, template_name='404/404.html')
