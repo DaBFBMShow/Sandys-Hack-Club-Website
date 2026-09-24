@@ -4,10 +4,12 @@
     <head>
         <meta charset="UTF-8">
         <title>Sandy's Hack Club | 404</title>
+    <link rel="stylesheet" href="{% static 'index/style.css' %}">
     <link rel="stylesheet" href="{% static '404/404.css' %}">
     </head>
     <body>
-        <p>You found yourself inside of a hole.</p>
-        <button onclick="window.location.href='/';">Get back up</button>
+        <p class="getBackUpYouFool">You found yourself inside of a hole.</p>
+        <img src="{% static '404/hole.png' %}" class="hole">
+        <h3 class='getBackUpYouFool' style="border: 2px solid #20DFFF;" onclick="window.location.href='/';">Get back up</h3>
     </body>
 </html>
