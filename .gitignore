@@ -2,3 +2,5 @@
 djangobackend\__pycache__
 djangobackend\__pycache__\**
 !.gitignore
+readme.mb
+todo.mb
