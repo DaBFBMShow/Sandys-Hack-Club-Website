@@ -69,14 +69,30 @@ body {
     border-radius: 20px;
     display: inline-block;
     padding: 8px 16px;
+    margin-top: 16px;
+    margin-bottom: 64px;
+    border: 2px solid #20DFFF;
+    text-align: center;
+}
+
+.header-one {
+    color: #20DFFF;
+    background-color: rgb(10, 0, 20);
+    border-radius: 20px;
+    display: inline-block;
+    padding: 8px 16px;
     margin-top: 8px;
     border: 2px solid #20DFFF;
 }
 
-.welcome h3 {
-    text-align: center;
+.projects {
+    border: 4px solid #20DFFF;
+    padding: 20px 20px;
+    border-radius: 80px;
+    background-color: rgb(10, 0, 20);
+    display: flex;
+    gap: 16px;
 }
-
 .hackclub {
     margin-top: 30px;
     border: 2px solid #20DFFF;
