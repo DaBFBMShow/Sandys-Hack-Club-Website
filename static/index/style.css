@@ -75,13 +75,14 @@ body {
     text-align: center;
 }
 
-.header-one {
+.header {
     color: #20DFFF;
     background-color: rgb(10, 0, 20);
     border-radius: 20px;
     display: inline-block;
     padding: 8px 16px;
     margin-top: 8px;
+    margin-bottom: 16px;
     border: 2px solid #20DFFF;
 }
 
@@ -90,9 +91,29 @@ body {
     padding: 20px 20px;
     border-radius: 20px;
     background-color: rgb(10, 0, 20);
-    display: flex;
     gap: 16px;
+    display: flex;
+    flex-wrap: nowrap;
 }
+
+.thumb  {
+    border: 2px solid #20DFFF;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.item  {
+    color: #107888;
+    border: 2px solid #20DFFF;
+    border-radius: 10px;
+    padding: 12px;
+    flex: 1;
+}
+
+.item h2, h3 {
+    max-width: 150px;
+}
+
 .hackclub {
     margin-top: 30px;
     border: 2px solid #20DFFF;
@@ -106,14 +127,4 @@ body {
     display: block;
     max-width: 100%;
     height: auto;
-}
-
-.thumb  {
-    border: 2px solid #20DFFF;
-    border-radius: 10px;
-    padding: 12px;
-}
-
-.item  {
-    color: #107888;
 }
