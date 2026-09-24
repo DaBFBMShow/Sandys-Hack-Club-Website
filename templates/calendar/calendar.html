@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>calendar</title>
+    <link rel="stylesheet" href="{% static 'index/style.css' %}">
+    <link rel="stylesheet" href="{% static 'members/members.css' %}">
+    </head>
+    <body>
+        <header>
+            <nav class="gimmehead">
+                <ul class="headtext">
+                    <li><a href="/"><strong>Sandy's Hack Club</strong></a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/workshops">Workshops</a></li>
+                    <li><a href="/members">Members</a></li>
+                    <li><a href="/calendar">Calendar</a></li>
+                </ul>
+            </nav>
+        </header>
+        <iframe class="calendar-embed" src="https://calendar.google.com/calendar/embed?src=4c9b19a6a7d6106c533362f7e1800eaf4ef43bcc06e1976ddf8837e3dc1c3462%40group.calendar.google.com&ctz=America%2FDenver" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </body>
+</html>
